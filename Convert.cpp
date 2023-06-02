@@ -1,8 +1,8 @@
-#include "Convert.h"
+ï»¿#include "Convert.h"
 
 
 
-// ×ª»»×Ö·ûÊý×éÖÁHEX
+// è½¬æ¢å­—ç¬¦æ•°ç»„è‡³HEX
 IOS_AUTH_RUNTIME_API std::string auth_convert_bytes_to_hex(const void* _Bytes, size_t _Size) noexcept
 {
 	if(_Bytes == nullptr || _Size == 0)
@@ -22,7 +22,7 @@ IOS_AUTH_RUNTIME_API std::string auth_convert_bytes_to_hex(const void* _Bytes, s
 	return vConvert;
 }
 
-// ×ª»»HEXÖÁ×Ö·û
+// è½¬æ¢HEXè‡³å­—ç¬¦
 IOS_AUTH_RUNTIME_API char auth_convert_hex_to_char(char _Hex) noexcept
 {
 	if((_Hex >= 'A') && (_Hex <= 'Z'))
@@ -40,7 +40,7 @@ IOS_AUTH_RUNTIME_API char auth_convert_hex_to_char(char _Hex) noexcept
 	return 0;
 }
 
-// ×ª»»HEXÖÁ×Ö·ûÊý×é
+// è½¬æ¢HEXè‡³å­—ç¬¦æ•°ç»„
 IOS_AUTH_RUNTIME_API std::string auth_convert_hex_to_bytes(const void* _Hex, size_t _Size) noexcept
 {
 	if(_Hex == nullptr || _Size <= 1)
