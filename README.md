@@ -17,10 +17,15 @@
 
 # 模块
 *Library:          扫描当前设备的iTunes库并加载*
+
 *Handle:           根据iTunes版本设置指定的偏移地址并调用*
+
 *Network:          通过套接字或管道与客户端或服务器通信*
+
 *Convert:          十六进制转换*
+
 *Process:          进程执行函数封装*
+
 *Exec:             执行入口*
 
 
